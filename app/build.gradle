@@ -15,4 +15,7 @@ android {
 
 dependencies {
     provided 'com.google.android.things:androidthings:0.2-devpreview'
+
+    compile 'edu.cmu.pocketsphinx:pocketsphinx-android:5prealpha-release@aar'
+    compile project(':cmusphinx-models')
 }
